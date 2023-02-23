@@ -199,8 +199,8 @@ const colors = [
   "chocolate",
   "coral",
   "brown",
-];
-let randomColor = () => colors[Math.floor(Math.random() * colors.length)];
+];let randomColor = () => colors[Math.floor(Math.random() * colors.length)];
+
 
 const styles = StyleSheet.create({
   container: {
